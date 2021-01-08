@@ -1,0 +1,19 @@
+﻿<Window x:Class="AEMapWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AEMapWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="541*"/>
+            <ColumnDefinition Width="251*"/>
+        </Grid.ColumnDefinitions>
+        <WindowsFormsHost HorizontalAlignment="Left" Height="84" Name="windowsFormsHost1" VerticalAlignment="Top" Width="782" Grid.ColumnSpan="2"/>
+        <WindowsFormsHost HorizontalAlignment="Left" Height="320" Name="windowsFormsHost2" Margin="0,89,0,0" VerticalAlignment="Top" Width="108" RenderTransformOrigin="-1.099,0.007"/>
+        <WindowsFormsHost HorizontalAlignment="Left" Height="320"  Name="windowsFormsHost3" Margin="113,89,0,0" VerticalAlignment="Top" Width="669" Grid.ColumnSpan="2"/>
+
+    </Grid>
+</Window>
